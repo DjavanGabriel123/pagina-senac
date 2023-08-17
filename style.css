@@ -1,0 +1,275 @@
+ * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.menu { 
+    display: flex;
+    background: gray;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 10px 10px -10px hsl(0deg 0% 0% / 45%);
+    padding: 1.5em 0 0.5em 0 ;
+    height: 2.5em;
+    letter-spacing: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu li {
+    /*float: left;*/
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.menu li a {
+    color: #444444;
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1em;
+    
+}
+
+.menu li a:hover {
+    color: orange;
+    -moz-shadow: 3px 10px #CCC;
+    text-shadow: 5px #fff;
+
+}
+
+.menu li ul {
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+
+.father {
+    width: 100%;
+    Height: 40%;
+    background-image: url("img-senac.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:2em 0;
+}
+
+.fly {
+     background: white;
+    width: 40%;
+    height: 40%;
+    border-left-color: white;
+    border-radius: 0px 25px 25px 0px;
+    text-align-last: left;
+    padding: 4%;
+    margin: 0;
+
+}
+
+p {
+    color: #666666
+}
+
+
+.telefone {
+    font-size: 70%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+.img {
+
+    background-size: 100%;
+}
+.cursos{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    margin: 0 10%;
+}
+
+
+h3 {
+    font-weight: 700;
+    color: #F68B1F;
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 1.83em;
+    margin-top: 3%;
+    font-weight: 700;
+
+
+}
+
+h5 {
+    color: #004B8D;
+    font-weight: 400;
+    font-size: 130%;
+
+
+}
+
+h2{
+    color: #FF8400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    font-weight:900;
+
+}   
+
+
+
+.lista-gradiente {
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    border: #666666 solid 1px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    font-size: 20px;
+    margin-bottom: 5%;
+    
+
+}
+
+.lista {
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+}
+    
+.lista li {
+    font-size: 0.6em;
+    color: #444444;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    height: auto;
+    margin: 10px auto;
+}
+.lista li:last-child{
+    margin: 0;
+}
+
+.lista li a:hover,
+.active {
+    color: orange !important;
+}
+button{
+    background: rgb(247,148,29);
+    background: linear-gradient( 180deg, rgba(247,148,29,1) 0%, rgba(219,74,0,1) 100%);
+    border-radius: 0 8px 8px 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+    margin-left: 0.1%
+    
+}
+button:hover{
+    background: rgb(189, 106, 6);
+    background: linear-gradient( 180deg, rgb(228, 127, 5) 0%, rgba(219,74,0,1) 100%);
+}
+.lista li img{
+    width: 30%;
+    height: auto;
+}
+
+#section-cursos{
+    width: 100%;
+    height:auto;
+    min-height: 70%;
+    padding: 0 8% 100%;
+    align-content:flex-start;
+}
+#section-cursos .carrossel-curso .foto-curso figure img{
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+
+}
+#section-cursos .carrossel-curso .foto-curso figure{
+    overflow: hidden;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+#section-cursos .carrossel-curso{
+    width: 22%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    float: left;
+    margin: 0 40px ;  
+    box-shadow:  2px 2px 20px 2px #888888;
+    display: inline-block;
+
+}
+#section-cursos .carrossel-curso h3{
+    color:#0000EE;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 3%;
+    margin-top: 10%;
+    }
+    #section-cursos .carrossel-curso h6{
+        color:#888888;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+        margin-left: 3%;
+    }
+    #section-cursos .carrossel-curso p{
+        color:#444444;
+        font-size: 0.8em;
+        margin-top: 2.0em;
+        margin-left: 3%;
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+    #section-cursos .carrossel-curso a{
+       color:orange;
+       margin-top: 1.5em;
+       margin-left: 3%;
+
+    }
+    #section-cursos .saiba-mais{
+        width: 100%;
+        height: 50px;
+        background-color: #F68B1F;
+        padding-top: 15px;
+        border-radius: 0 0 10px 10px;
+        font-size: 1.5em;
+    }
+    #section-cursos a.cta-info{
+        width: 100%;
+        height: 50px;
+        background-color: #F68B1F;
+        padding-top: 15px;
+        border-radius: 0 0 10px 10px;
+        font-size: 1.5em;
+        color:#fff;
+        display: block;
+        margin: 0;
+        padding-left: 10px;
+        box-sizing: border-box;
+        padding-bottom: 50px;
+    }
+    #section-cursos a.cta-info:hover{
+        background-color:#004b92;
+    }
+
+
